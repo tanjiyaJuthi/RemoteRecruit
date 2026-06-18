@@ -2,7 +2,7 @@ import globalImage from "../../assets/images/global.png";
 
 const Global = () => {
     return (
-        <div className="max-w-334  mx-auto global-reach-wrapper grid grid-cols-1 lg:grid-cols-2 lg:gap-29 px-5 lg:px-0 py-25 items-center">
+        <div className="max-w-334  mx-auto global-reach-wrapper grid grid-cols-1 lg:grid-cols-2 lg:gap-29 px-5 lg:px-0 items-center">
             <div className="global-reach-content max-w-[500px] space-y-9">
                 <p className="text-[12px] bg-[#c2eeff] rounded-full py-5 px-4.5 inline-block">Global Reach</p>
 
