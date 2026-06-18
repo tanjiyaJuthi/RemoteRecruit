@@ -5,17 +5,16 @@ import work from "../../assets/images/work.png";
 const Work = () => {
   return (
     <div
-      className="grid grid-cols-1 items-center gap-10 px-5 py-16 lg:min-h-screen lg:grid-cols-2 lg:gap-29 lg:px-0 bg-cover bg-center bg-no-repeat text-white"
+      className="grid grid-cols-1 items-center gap-10 px-5 pt-10 lg:min-h-screen lg:grid-cols-2 lg:gap-0 lg:px-0 pb-10 lg:pb-0 bg-cover bg-center bg-no-repeat text-white"
       style={{
         backgroundImage: `url(${workBg})`,
       }}
     >
-      {/* Image */}
-      <div className="flex justify-center lg:justify-start">
+      <div className="flex h-full items-end justify-center lg:justify-start max-w-600">
         <img
           src={work}
           alt="work-image"
-          className="w-full max-w-200 object-contain"
+          className="w-full object-contain"
         />
       </div>
 

@@ -5,7 +5,6 @@ const Navbar = () => {
   return (
     <section className="navbar-wrapper mx-auto max-w-334 px-5 lg:px-0">
       <header className="flex items-center justify-between py-8">
-
         {/* Logo */}
         <div>
           <img

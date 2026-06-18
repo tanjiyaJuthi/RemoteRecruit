@@ -23,21 +23,21 @@ function App() {
         <Hero />
       </div>
 
-      <main>
-        <Global />
+      <Global />
 
-        <Membership />
+      <Membership />
 
-        <Profile />
+      <Profile />
 
-        <Work />
+      <Work />
 
-        <Question />
+      <Question />
 
+      <div className="relative">
         <Help />
-      </main>
       
-      <Footer />
+        <Footer />
+      </div>
     </>
   )
 }

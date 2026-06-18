@@ -1,22 +1,22 @@
 const Question = () => {
     return (
-        <div className="mx-auto max-w-334 py-35">
-            <h2 className="text-[30px] lg:text-[40px] font-medium">Common Questions</h2>
+        <div className="mx-auto max-w-334 my-15 lg:my-35 px-5 lg:px-0">
+            <h2 className="text-2xl md:text-4xl lg:text-[40px] font-medium">Common Questions</h2>
 
-            <div className="mt-15 space-y-10 text-[19px]">
+            <div className="mt-10 lg:mt-15 space-y-10 text-[19px]">
                 <div className="space-y-3">
-                    <h3 className="font-medium">Do I have to sign a long-term contract?</h3>
-                    <p className="text-[#6D6E7A]">Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party</p>
+                    <h3 className="font-medium text-[14px] md:text-[16px]">Do I have to sign a long-term contract?</h3>
+                    <p className="text-[#6D6E7A] text-[14px] md:text-[16px]">Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party</p>
                 </div>
 
                 <div className="space-y-3">
-                    <h3 className="font-medium">Can I pay for a whole year?</h3>
-                    <p className="text-[#6D6E7A]">Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage</p>
+                    <h3 className="font-medium text-[14px] md:text-[16px]">Can I pay for a whole year?</h3>
+                    <p className="text-[#6D6E7A] text-[14px] md:text-[16px]">Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage</p>
                 </div>
 
                 <div className="space-y-3">
-                    <h3 className="font-medium">What if I need help?</h3>
-                    <p className="text-[#6D6E7A]">Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party Thundercats High Life Tumblr</p>
+                    <h3 className="font-medium text-[14px] md:text-[16px]">What if I need help?</h3>
+                    <p className="text-[#6D6E7A] text-[14px] md:text-[16px]">Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party Thundercats High Life Tumblr</p>
                 </div>
             </div>
 
