@@ -95,12 +95,56 @@ const PricingCard = ({ plan }) => {
 
       {/* Button */}
       {plan.premium ? (
-        <button className="mt-auto w-full rounded-2xl bg-linear-to-r from-[#52B4DA] to-[#1E3E85] py-4 font-bold text-white shadow-lg">
+        <button
+          className="
+            group
+            mt-auto
+            w-full
+            rounded-2xl
+            bg-linear-to-r
+            from-[#52B4DA]
+            to-[#1E3E85]
+            py-4
+            font-bold
+            text-white
+            shadow-lg
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-xl
+            hover:opacity-90
+          "
+        >
           {plan.button}
-        </button>
+            </button>
       ) : (
-        <div className="mt-auto rounded-2xl bg-linear-to-r from-[#52B4DA] to-[#1E3E85] p-0.5">
-          <button className="w-full rounded-2xl bg-white py-4 font-bold text-[#1E3E85]">
+        <div
+          className="
+            mt-auto
+            rounded-2xl
+            bg-linear-to-r
+            from-[#52B4DA]
+            to-[#1E3E85]
+            p-0.5
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+          <button
+            className="
+              w-full
+              rounded-2xl
+              bg-white
+              py-4
+              font-bold
+              text-[#1E3E85]
+              transition-all
+              duration-300
+              hover:bg-[#f0f8ff]
+            "
+          >
             {plan.button}
           </button>
         </div>

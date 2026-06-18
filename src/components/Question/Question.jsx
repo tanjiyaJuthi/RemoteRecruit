@@ -38,7 +38,24 @@ const Question = () => {
         ))}
       </div>
 
-      <button className="mt-14 rounded-xl border-2 border-[#0d99ff] px-6 py-5 text-[12px] lg:text-[16px]">
+      <button
+        className="
+          mt-14
+          rounded-xl
+          border-2
+          border-[#0d99ff]
+          px-6
+          py-5
+          text-[12px]
+          text-[#1E3E85]
+          transition-all
+          duration-300
+          hover:bg-[#0d99ff]
+          hover:text-white
+          hover:shadow-lg
+          lg:text-[16px]
+        "
+      >
         More Questions
       </button>
     </section>

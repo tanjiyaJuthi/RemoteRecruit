@@ -8,6 +8,7 @@ import Work from './components/Work/Work';
 import Question from './components/Question/Question';
 import Help from './components/Help/Help';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/shared/ScrollToTop';
 
 import heroBg from "./assets/images/hero-bg.png";
 
@@ -38,6 +39,8 @@ function App() {
       
         <Footer />
       </div>
+
+      <ScrollToTop />
     </>
   )
 }
