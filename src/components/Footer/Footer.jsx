@@ -39,13 +39,11 @@ const Footer = () => {
         href: "#",
         },
     ];
-        
+    
     return (
         <div
             className="
                 header-wrapper
-                min-h-150
-                lg:min-h-screen
                 bg-cover
                 bg-center
                 bg-no-repeat
@@ -53,14 +51,14 @@ const Footer = () => {
                 mt-10
                 md:mt-20
                 lg:mt-65
-                pt-35
             "
             style={{
                 backgroundImage: `url(${footerBg})`,
             }}
         >
             <div className="px-5
-                lg:px-0 footer-wrapper max-w-334 mx-auto mb-40 lg:mb-63">
+                lg:px-0 footer-wrapper max-w-334 mx-auto mb-40 lg:mb-45"
+            >
                 <div
                     className="
                         grid

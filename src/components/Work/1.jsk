@@ -11,7 +11,7 @@ import ellipseThree from "../../assets/images/ellipse-3.png";
 const Work = () => {
   return (
     <div
-      className="grid grid-cols-1 items-center gap-10 pt-10 lg:grid-cols-2 lg:gap-0 pb-10 lg:pb-0 bg-cover bg-center bg-no-repeat text-white relative"
+      className="grid grid-cols-1 items-center gap-10 px-5 pt-10 lg:grid-cols-2 lg:gap-0 lg:px-0 pb-10 lg:pb-0 bg-cover bg-center bg-no-repeat text-white relative"
       style={{
         backgroundImage: `url(${workBg})`,
       }}
@@ -58,7 +58,7 @@ const Work = () => {
         alt="Round"
         className="
           bottom-0
-          lg:left-75
+          left-75
         "
       />
 
@@ -80,7 +80,7 @@ const Work = () => {
       </div>
 
       {/* Content */}
-      <div className="lg:max-w-125 space-y-3 px-5 lg:px-0">
+      <div className="lg:max-w-125 space-y-3">
         <p className="text-[12px] font-semibold text-[#1E3E85]">
           Are you ready?
         </p>
