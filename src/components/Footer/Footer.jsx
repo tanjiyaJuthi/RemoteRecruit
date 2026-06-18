@@ -53,15 +53,14 @@ const Footer = () => {
                 mt-10
                 md:mt-20
                 lg:mt-65
-                pt-20
-                md:pt-0
+                pt-35
             "
             style={{
                 backgroundImage: `url(${footerBg})`,
             }}
         >
             <div className="px-5
-                lg:px-0 footer-wrapper max-w-334 mx-auto mb-40">
+                lg:px-0 footer-wrapper max-w-334 mx-auto mb-40 lg:mb-63">
                 <div
                     className="
                         grid
@@ -79,7 +78,7 @@ const Footer = () => {
                         className="w-40"
                     />
 
-                    <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-self-end">
+                    <div className="flex flex-wrap items-center  gap-3 lg:justify-self-end">
                         {socials.map((social) => (
                         <SocialIcon
                             key={social.label}
