@@ -9,13 +9,14 @@ import Question from './components/Question/Question';
 import Help from './components/Help/Help';
 import Footer from './components/Footer/Footer';
 
+import heroBg from "./assets/images/hero-bg.png";
+
 function App() {
   return (
     <> 
       <div className="header-wrapper min-h-screen bg-cover bg-center bg-no-repeat text-white"
         style={{
-          backgroundImage:
-            "url('../../src/assets/images/hero-bg.png')",
+          backgroundImage: `url(${heroBg})`,
         }}
       >
         <Navbar />
