@@ -11,7 +11,7 @@ const Hero = () => {
         </h1>
 
         {/* Description Text */}
-        <p className="mx-auto max-w-3xl text-[20px] font-medium leading-relaxed text-blue-100 md:text-xl">
+        <p className="mx-auto max-w-3xl text-[15px] md:text-[20px] font-medium leading-relaxed text-blue-100 md:text-xl">
           RemoteRecruit is connecting the world with an easy-to-use platform
           that lets full-time, part-time, and freelance workers showcase their
           talents to businesses that need them. With no paywalls, no fees, and

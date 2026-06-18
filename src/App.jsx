@@ -23,17 +23,19 @@ function App() {
         <Hero />
       </div>
 
-      <Global />
+      <main>
+        <Global />
 
-      <Membership />
+        <Membership />
 
-      <Profile />
+        <Profile />
 
-      <Work />
+        <Work />
 
-      <Question />
+        <Question />
 
-      <Help />
+        <Help />
+      </main>
       
       <Footer />
     </>

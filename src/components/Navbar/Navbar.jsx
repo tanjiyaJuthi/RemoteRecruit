@@ -1,9 +1,11 @@
 import navLogo from "../../assets/images/nav-logo.png";
+import Button from "../shared/Button";
 
 const Navbar = () => {
   return (
-    <section className="navbar-wrapper mx-auto max-w-[1336px] px-5">
+    <section className="navbar-wrapper mx-auto max-w-[1336px] px-5 lg:px-0">
       <header className="flex items-center justify-between py-8">
+
         {/* Logo */}
         <div>
           <img
@@ -25,13 +27,11 @@ const Navbar = () => {
             Sign In
           </a>
 
-          <a
-            href="#"
-            className="rounded-xl border border-white/10 bg-[#49a1c7] px-6 py-2 font-bold text-white shadow-lg backdrop-blur-md transition-all hover:bg-[#3d91b5]"
-          >
+          <Button href="/signup">
             Sign Up
-          </a>
+          </Button>
         </nav>
+
       </header>
     </section>
   );
