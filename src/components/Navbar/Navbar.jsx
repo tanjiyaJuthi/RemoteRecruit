@@ -3,7 +3,7 @@ import Button from "../shared/Button";
 
 const Navbar = () => {
   return (
-    <section className="navbar-wrapper mx-auto max-w-[1336px] px-5 lg:px-0">
+    <section className="navbar-wrapper mx-auto max-w-334 px-5 lg:px-0">
       <header className="flex items-center justify-between py-8">
 
         {/* Logo */}
@@ -17,7 +17,7 @@ const Navbar = () => {
 
         {/* Auth Links */}
         <nav
-          className="flex items-center gap-7 text-[14px]"
+          className="flex items-center gap-3 lg:gap-7 text-[12px] lg:text-[14px]"
           data-purpose="auth-links"
         >
           <a
@@ -27,7 +27,7 @@ const Navbar = () => {
             Sign In
           </a>
 
-          <Button href="/signup">
+          <Button className="text-[10px] lg:text-[14px]" href="/signup">
             Sign Up
           </Button>
         </nav>

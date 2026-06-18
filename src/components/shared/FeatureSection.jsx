@@ -9,7 +9,7 @@ const FeatureSection = ({
 }) => {
   return (
     <div
-      className={`mx-auto grid max-w-[1336px] grid-cols-1 items-center gap-10 px-5 lg:grid-cols-2 lg:gap-29 lg:px-0 ${className} ${
+      className={`mx-auto grid max-w-334 grid-cols-1 items-center gap-10 px-5 lg:grid-cols-2 lg:gap-29 lg:px-0 ${className} ${
         reverse ? "lg:[&>*:first-child]:order-2" : ""
       }`}
     >
@@ -18,7 +18,7 @@ const FeatureSection = ({
           {badge}
         </p>
 
-        <h2 className="text-2xl md:text-4xl">
+        <h2 className="text-2xl md:text-4xl font-medium">
           {title}
         </h2>
 
