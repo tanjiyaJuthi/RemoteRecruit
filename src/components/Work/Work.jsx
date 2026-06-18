@@ -5,7 +5,7 @@ import work from "../../assets/images/work.png";
 const Work = () => {
   return (
     <div
-      className="grid grid-cols-1 items-center gap-10 px-5 pt-10 lg:min-h-screen lg:grid-cols-2 lg:gap-0 lg:px-0 pb-10 lg:pb-0 bg-cover bg-center bg-no-repeat text-white"
+      className="grid grid-cols-1 items-center gap-10 px-5 pt-10 lg:grid-cols-2 lg:gap-0 lg:px-0 pb-10 lg:pb-0 bg-cover bg-center bg-no-repeat text-white"
       style={{
         backgroundImage: `url(${workBg})`,
       }}

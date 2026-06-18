@@ -53,8 +53,6 @@ const Footer = () => {
                 mt-10
                 md:mt-20
                 lg:mt-65
-                px-5
-                lg:px-0
                 pt-20
                 md:pt-0
             "
@@ -62,7 +60,8 @@ const Footer = () => {
                 backgroundImage: `url(${footerBg})`,
             }}
         >
-            <div className="footer-wrapper max-w-334 mx-auto mb-40">
+            <div className="px-5
+                lg:px-0 footer-wrapper max-w-334 mx-auto mb-40">
                 <div
                     className="
                         grid
@@ -96,7 +95,7 @@ const Footer = () => {
 
             <div className="border-t border-[#8ba3cc]"></div>
 
-            <div>
+            <div className="px-5 lg:px-0">
                 <img className="mx-auto pt-6" src={icon} alt="Remote Recuit Sign" />
             </div>
         </div>
